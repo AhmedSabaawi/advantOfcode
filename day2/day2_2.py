@@ -80,8 +80,8 @@ games_from_file = read_games_from_file(file_path)
 # Calculate the minimum set of cubes for each game and their power
 total_power = 0
 for game_id, game_data in games_from_file.items():
-    min_cubes = minimum_cubes_required(game_data)
-    game_power = calculate_power_of_set(min_cubes)
+    max_cubes = minimum_cubes_required(game_data)
+    game_power = calculate_power_of_set(max_cubes)
     total_power += game_power
 
 print(total_power)
