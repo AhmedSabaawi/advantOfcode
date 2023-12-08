@@ -1,4 +1,4 @@
-🎄 Advent Of Code 2023 🎄
+🎄 Advent Of Code 2023 Pythin solation  🎄
 
 Advent Of Code 2023 Day 01 Pythin solation 
 
